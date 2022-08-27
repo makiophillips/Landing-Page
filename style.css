@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.cont {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 160px;
+}
+
+.cont-a,
+.scont-b {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    flex-shrink: 0;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.cont-b {
+    display: flex;
+}
+
+button {
+    padding: 8px;
+    margin: 0;
+    width: 100px;
+    height: auto;
+}
+img {
+    height: auto;
+    width: 300px;
+}
