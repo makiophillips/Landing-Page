@@ -15,7 +15,7 @@ body {
     gap: 100px;
     flex: 1;
     color: #F9FAF8;
-    padding-block: 8px 160px;
+    padding-block: 8px 80px;
 }
 
 .cont-1a {
@@ -115,6 +115,7 @@ img.picheader {
     flex-direction: column;
     flex: 1;
     background-color: pink;
+    padding-block : 20px 80px;
 }
 
 .salon-info {
@@ -123,6 +124,7 @@ img.picheader {
     display: flex;
     justify-content: center;
     padding-block: 20px 20px;
+
 }
 
 .cont-2a {
@@ -131,6 +133,7 @@ img.picheader {
     justify-content: center;
     align-items: flex-start;
     column-gap: 4%;
+    padding-block-start: 20px;
 }
 
 div.pic {
@@ -150,10 +153,34 @@ img.images {
 }
 
 div.text {
-    display: inline-flex;
     flex: 1;
     justify-content: center;
     font-size: 12px;
     flex-wrap: wrap;
     text-align: center;
+}
+
+.cont-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(201, 159, 201);
+    align-items: center;
+    padding-inline: 18%;
+    padding-block: 80px;
+}
+
+.cont-3a {
+    font-size: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.cont-3b {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    font-weight: bold;
 }
