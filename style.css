@@ -92,15 +92,17 @@ button {
     flex: 1 0 50%;
     display: flex;
     overflow: hidden;
+    max-height: inherit;
+    max-width: inherit;
 }
 
 img.picheader {
     max-width: 100%;
     border-radius: 25px;
-    background: url(img/salon.jpg);
     background-position: left top;
     background-repeat: repeat;
-    max-height: inherit;
+    image-rendering: pixelated;
+    -webkit-backface-visibility: hidden;
 }
 
 div.pic {
