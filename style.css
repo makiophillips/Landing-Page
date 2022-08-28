@@ -20,7 +20,7 @@ body {
 
 .cont-1a {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     max-width: 1110px;
     width: 100%;
 }
@@ -34,6 +34,8 @@ body {
 .links {
     flex: 1;
 }
+
+
 
 .cont-1b {
     display: flex;
@@ -62,6 +64,7 @@ ul {
     justify-content: flex-end;
     font: lighter;
     font-size: 12px;
+    padding-left: 50%;
 }
 
 li {
@@ -115,7 +118,7 @@ img.picheader {
 }
 
 .salon-info {
-    font-size: bolder;
+    font-weight: bolder;
     font-size: 36px;
     display: flex;
     justify-content: center;
