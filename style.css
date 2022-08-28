@@ -10,8 +10,7 @@ body {
     padding: 10px 160px;
 }
 
-.cont-a,
-.scont-b {
+.cont-a {
     display: flex;
     justify-content: space-between;
 }
