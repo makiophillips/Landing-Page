@@ -18,7 +18,7 @@ body {
     padding-block: 8px 160px;
 }
 
-.cont-a {
+.cont-1a {
     display: flex;
     align-items: flex-end;
     max-width: 1110px;
@@ -35,12 +35,12 @@ body {
     flex: 1;
 }
 
-.cont-b {
+.cont-1b {
     display: flex;
     align-items: flex-start;
     max-width: 1110px;
     width: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
     max-height: 187px;
 }
 
@@ -103,10 +103,43 @@ img.picheader {
     background-repeat: repeat;
     image-rendering: pixelated;
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.cont-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-block: 16px 0px;
+}
+
+.cont-2a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.salon-info {
+    font-size: bolder;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
 }
 
 div.pic {
+    flex: 1;
     display: flex;
-    height: 50px;
-    width: 50px;
+    max-height: inherit;
+    width: 150px;
+    flex-direction: column;
+}
+
+img.images {
+    height: 150px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
 }
