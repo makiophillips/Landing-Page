@@ -184,11 +184,12 @@ div.text {
     font-weight: bold;
 }
 
-.cont-4{
+.cont-4 {
     display: flex;
     justify-content: space-between;
-    margin-inline: 18%;
-    margin-block: 30px;
+    padding-inline: 18%;
+    padding-block: 60px;
+    background-color: pink;
 }
 
 .cont-4a {
@@ -232,3 +233,11 @@ div.text {
     font-size: 12px;
 }
 
+.footer {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(201, 159, 201);
+    padding-block: 20px;
+    color: black;
+}
