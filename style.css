@@ -52,7 +52,6 @@ body {
     display: flex;
     justify-content: flex-start;
     max-height: inherit;
-    flex-wrap: wrap;
 }
 
 p {
@@ -80,7 +79,7 @@ span {
 }
 
 
-button {
+#signup {
     padding: 8px;
     margin-top: 10px;
     width: 100px;
@@ -184,3 +183,52 @@ div.text {
     justify-content: flex-end;
     font-weight: bold;
 }
+
+.cont-4{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 18%;
+    margin-block: 30px;
+}
+
+.cont-4a {
+    flex: 1;
+    display: flex;
+    background-color: #3882F6;
+    padding-inline: 100px;
+    padding-block: 40px;
+    border-radius: 6px;
+    background-position: left top;
+    background-repeat: repeat;
+    image-rendering: pixelated;
+}
+
+.cont-4ht {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+#schedule {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #3882F6;
+    border-radius:  10px;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    font-weight: bold;
+    max-width: 25%;
+}
+
+.cont-4header {
+    font-weight: bold;
+}
+
+.cont-4text {
+    font-weight: 100;
+    font-size: 12px;
+}
+
